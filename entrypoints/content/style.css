@@ -115,5 +115,5 @@ code {
 .table, .alert.alert-info>table, .alert.alert-caution>table, .alert.alert-danger>table, .td-content table, .td-box .row.section>table {
   width: 100%;
   margin-bottom: 1rem;
-  /* color: #222; */
+  color: #d4d4d4;
 }
