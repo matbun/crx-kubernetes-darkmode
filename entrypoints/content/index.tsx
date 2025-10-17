@@ -2,6 +2,8 @@ import "./style.css";
 
 export default defineContentScript({
   matches: ["*://*.kubernetes.io/*"],
+  runAt: "document_end",
+  allFrames: true,
 
   async main() {
     console.log("Hello from Kubernetes Dark Mode!");
